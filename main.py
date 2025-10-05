@@ -21,8 +21,6 @@ def run(*args):
         ** USAGE** --
         python main.py {x-val} {y-val} {z-val}
     """
-    if not args:
-        print("spew out the usage and quit when no args given")
 
     # Parse the command line for the given three-dimensional cartesian coordinates
         # Acceptable format: python main.py x-val y-val z-val
