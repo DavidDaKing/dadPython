@@ -54,10 +54,14 @@ def run(*args):
     # Azimuthal angle - just arctan(y/x) - cast both as ints
     azAng = math.atan(int(yVal) / int(xVal))
 
+    # Radians to degree conversions 
+    polDeg = polAng * (180 / math.pi)
+    azDeg = azAng * (180 / math.pi)
+
     # Spew out the data to the user
     print(f"This is the radical distance: {radVal}")
-    print(f"This is the polar angle: {polAng} radians")
-    print(f"This is the azimuthal angle: {azAng} radians")
+    print(f"This is the polar angle: {polAng} radians | {polDeg} degrees")
+    print(f"This is the azimuthal angle: {azAng} radians | {azDeg} degrees")
 
 # Function for calculating radical distance
 def getRad(xVal, yVal, zVal):
