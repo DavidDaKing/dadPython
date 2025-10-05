@@ -7,6 +7,7 @@
 
     **MODIFICATION HISTORY**
     - Initial implementation - DAB 10/4/25
+    - Added radians to degrees conversion - DAB 10/5/25
 
 """
 # *********************************************************************************************
