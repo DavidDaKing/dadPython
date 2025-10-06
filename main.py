@@ -25,7 +25,7 @@ def run(*args):
 
     # Parse the command line for the given three-dimensional cartesian coordinates
         # Acceptable format: python main.py x-val y-val z-val
-        # May be positive or negative values (Not implemented yet)
+        # May be positive or negative values 
     if len(sys.argv) != 4:
         print("Usage: python3 main.py {x-val} {y-val} {z-val}")
         sys.exit(1)
