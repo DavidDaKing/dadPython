@@ -49,10 +49,10 @@ def run(*args):
 
     # Polar Angle - just arccos(z/r)
     # TypeError: unsupported operand type(s) for /: 'str' and 'float' - cast zVal as int
-    polAng = math.acos(int(zVal) / radVal)
+    polAng = math.acos(zVal / radVal)
 
     # Azimuthal angle - just arctan(y/x) - cast both as ints
-    azAng = math.atan(int(yVal) / int(xVal))
+    azAng = math.atan(yVal / xVal)
 
     # Radians to degree conversions 
     polDeg = polAng * (180 / math.pi)
@@ -78,7 +78,7 @@ def getRad(xVal, yVal, zVal):
     vals = [xVal, yVal, zVal] 
     for i in range(len(vals)):
         # TypeError: must be real number, not string - to avoid: cast as int
-        vals[i] = math.pow(int(vals[i]), 2)
+        vals[i] = math.pow(vals[i], 2)
         cumVal += vals[i]
 
     # Square root the cumulative value for the final answer
