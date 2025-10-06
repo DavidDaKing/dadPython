@@ -8,6 +8,7 @@
     **MODIFICATION HISTORY**
     - Initial implementation - DAB 10/4/25
     - Added radians to degrees conversion - DAB 10/5/25
+    - Allowed user to pass in floats - DAB 10/6/25
 
 """
 # *********************************************************************************************
@@ -30,9 +31,9 @@ def run(*args):
         sys.exit(1)
 
     # User given coordinate values 
-    xVal = sys.argv[1]
-    yVal = sys.argv[2]
-    zVal = sys.argv[3]
+    xVal = float(sys.argv[1])
+    yVal = float(sys.argv[2])
+    zVal = float(sys.argv[3])
 
 
     # Printed 
