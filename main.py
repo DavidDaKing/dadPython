@@ -3,7 +3,7 @@
 # *********************************************************************************************
 """
     **PURPOSE**
-    This tool is used to assit with three-dimensional cartesian to spherical coordinate system calculations. 
+    This tool is used to assist with three-dimensional cartesian to spherical coordinate system calculations. 
 
     **MODIFICATION HISTORY**
     - Initial implementation - DAB 10/4/25
