@@ -1,2 +1,2 @@
-# dadPython
-Python program created for my dad
+# Ephemeris
+Python program created for a hubble astronomer
